@@ -415,29 +415,32 @@
 
 
 
-
+/* 68696f */
   /* watchlist */
  
 body{
-    background-color: rgb(219, 219, 219);
+    /* background-color: rgb(219, 219, 219); */
     /* display: flex;
     justify-content: space-between; */
-    height: 1000px;
+    /* height: 1000px; */
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
 }
 #above{
     max-width: 100%;
     margin: 0 auto;
-    background-color: red; 
+    background-color: rgba(0, 0, 0, 0.6);
     display: flex;
+    padding-top: 60px;
    
 }
 
 .left-bar{
-    background-color: white;
+    /* background-color: white; */
      /* height: 1000px; */
      width: 80%;
      
-     border: 1px solid #ccc;
+     /* border: 1px solid #ccc; */
      border-right: 2px solid gray;
 }
 .top-bar{
@@ -447,18 +450,18 @@ body{
     border-bottom: 1px solid #ccc;
     /* margin: 5px; */
     padding: 20px 20px 20px 20px;
-    background-color: #eee;
+    background-color: rgba(0, 0, 0, 0.6);
 
 }
 .top-bar .left .tittle{
     font-size: 28px;
     font-family: sans-serif;
     font-weight: normal;
-    color: #424242;
+   
     
 }
 .top-bar .left .private{
-    color: #aaa;
+    
     font-size: 12px;
     font-weight: bold;
     margin-top: 4px;
@@ -469,7 +472,7 @@ body{
 }
 .top-bar .right{
     display: flex;
-    width: 25%;
+    width: 20%;
     justify-content: space-between;
 }
 .top-bar .right .edit{
@@ -485,18 +488,18 @@ body{
     display: flex;
     border-bottom: 1px solid #ccc;
     padding: 20px;
-    background-color: #eee;
+    background-color: rgba(0, 0, 0, 0.6);
 }
 .mid-bar .word {
     display: block;
-    width: 45%;
+    width: 75%;
 }
 
 .mid-bar .listOrder {
-    width: 40%;
+    width: 50%;
 }
 .mid-bar .grid-view{
-    width: 10%;
+    width: 5%;
 }
 
 .mid-bar .refine{
@@ -555,9 +558,9 @@ body{
  }
 
 .bottom{
-    width: 50%;
+    width: 100%;
     margin: 0 auto;
-    border: 1px solid #ccc;
+    /* border: 1px solid #ccc; */
     display: flex;
     height: 100px;
 }
@@ -566,22 +569,24 @@ body{
     font:arial, sans-serif;
     font-size: 18px;
     font-weight: normal;
-    color: #666;
+    /* color: #666; */
     padding: 8px;
 }
 .bottom .link{
+    width: 10%;
     text-decoration: none;
     padding: 5px;
+    margin-left: 70px;
 }
 
 .right-bar{
     width: 40%;
     height: 900px;
-    border: 1px solid #ccc;
-    background-color: white;
+    /* border: 1px solid #ccc; */
+    background-color: rgba(0, 0, 0, 0.6);
 }
 .right-bar .right-header .tittle{
-    color: #333;
+    /* color: #333; */
     font-size: 18px;
     margin-top: 16px;
     margin-left: 16px;
@@ -590,7 +595,7 @@ body{
 }
 
 .right-bar .right-header .tittle-2{
-    color: #333;
+    /* color: #333; */
     font-size: 13px;
     margin-left: 16px;
     font-weight: normal;

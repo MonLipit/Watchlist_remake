@@ -548,6 +548,7 @@ body{
     align-items: center;
     justify-content: center;
     margin-top: 10px;
+    padding-bottom: 5px;
  }
 
  .link2{
@@ -602,12 +603,14 @@ body{
     font-family: Arial, sans-serif;
 }
 .right-bar .right-header .link{
-    color: #70579d;
+    /* color: #70579d; */
     text-decoration: none;
     margin: 10px 16px;
     padding-top: 20px;
 }
-
+#list{
+    display: none;
+}
 
 
 
@@ -642,97 +645,6 @@ body{
     }
 }
 
-
-/* .left-header{
-    width: 60%;
-    
-    display: flex;
-    justify-content: space-between;
-    margin: 15px;
-    height: 10%;
-    border-bottom: 1px solid gray;
-}
-.left-header #left{
-    width: 75%;
-    
-    margin: 5px;
-}
-
-.tittle{
-    color: rgb(59, 58, 58);
-}
-.private{
-    display: flex;
-}
-.private span{
-    margin-right: 5px;
-}
-.left-header #right{
-    width: 20%;
-    display: flex;
-    justify-content: space-between;
-    margin: 5px;
-  
-}
-#right .edit .icon-edit {
-    display: flex;
-    flex-direction: column;
-    font-size: 12px;
-    padding: 3px;
-    margin: 0 auto;
-}
-#right .edit .icon-edit i{
-    font-size: 16px;
-    padding: 3px;
-    margin: 0 auto;
-}
-#right .share .icon-share {
-    display: flex;
-    flex-direction: column;
-    font-size: 12px;
-    padding: 3px;
-    margin: 0 auto;
-}
-#right .share .icon-share i{
-    font-size: 16px;
-    padding: 3px;
-    margin: 0 auto;
-}
-.icon-edit :hover{
-border-radius: 50%;
-}
-
-.right-header{
-    width: 40%;
-    
-    border-left: 4px solid gray;
-
-}
-.right-header .tittle{
-    margin: 15px;
-    margin-bottom: 20px;
-    font-size: 20px;
-    opacity: 90%;
-}
-.right-header .tittle-2{
-    margin: 15px;
-    font-size: 15px;
-    opacity: 90%;
-}
-.right-header .link{
-    margin: 15px;
-    text-decoration: none;
-}
-
-
-.lister-sort-by-container{
-    display: flex;
-    flex-direction: column;
-}
-.listOrder{
-    display: flex;
-    
-} */
 
 
 
